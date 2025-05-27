@@ -58,15 +58,25 @@ li:hover{
   }
 
 
-
 .banner {
-    background-image: url('image-mashuka/Bird-and-Floral-Art-Wallpaper-Mural-Living-Room_1204f935-1c1d-4d7e-8dd3-9b21970d9cc9.jpg');
-    background-size: cover;                 
-    background-position: center;            
-    background-repeat: no-repeat;           
-    height: 500px;                          
+  background-image: url('image-mashuka/Bird-and-Floral-Art-Wallpaper-Mural-Living-Room_1204f935-1c1d-4d7e-8dd3-9b21970d9cc9.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+  position: relative; 
 }
 
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px #000;
+}
 
 .banner-left{
     width:80%;
