@@ -155,22 +155,6 @@ li:hover{
                             background-color: black;
                             color: azure;
                         }
-    
-    
-
-/* DONE */
-
-
-/* @media only screen and (min-width-400px) and (max-width-767px){
-
-    .services{
-        display: flex;
-        flex-direction: column;
-        justify-content: center !important;
-    }
-} */
-
-
 
 .features {
     display: flex;
@@ -224,4 +208,139 @@ body{
     font-family: 'Times New Roman', Times, serif;
 }
 
-        
+ .b{
+  margin: 20px;
+  padding: 15px;
+  background-color: #ec4747;
+  border: none;
+  color: bisque;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  font-size: 16px;
+ }     
+ 
+ .b1{
+  margin: 20px;
+  padding: 20px;
+  background-color: #2cc3e9;
+  border: none;
+  color: bisque;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  font-size: 16px;
+  
+ } 
+ 
+ .b2{
+    display: flex;
+    justify-content: center; 
+    gap: 10px;                
+    margin-top: 20px;  
+ }
+ 
+ 
+
+@media only screen and (max-width: 767px) {
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .logo-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu-container {
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    padding-left: 20px;
+  }
+
+  .banner {
+    height: 300px;
+  }
+
+  .overlay-text {
+    font-size: 20px;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .banner-left {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  form {
+    width: 90%;
+  }
+
+  .features {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .features div {
+    width: 90%;
+    padding: 10px 0;
+  }
+
+  .b2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service-card {
+    width: 90%;
+    height: auto;
+  }
+
+  .services-1,
+  .services-2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-cls {
+    padding: 30px;
+  }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .service-card {
+    width: 45%;
+    height: auto;
+  }
+
+  .services-1,
+  .services-2 {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  form {
+    width: 80%;
+  }
+
+  .features div {
+    flex: 1 1 45%;
+  }
+}
